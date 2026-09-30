@@ -1,0 +1,17 @@
+[project]
+name = "whisper-finetune"
+version = "0.1.0"
+description = "Fine-tuning Whisper to one speaker's voice and vocabulary."
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "datasets",
+    "ipykernel",
+    "jiwer",
+    "matplotlib",
+    "soundfile",
+    "torch",
+    "transformers",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,21 @@
+# Python virtual environment (managed by uv; recreate with `uv sync`)
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv / pip caches
+.uv-cache/
+
+# OS / editor cruft
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Hugging Face model/dataset cache, if it ever lands in the project
+.cache/
