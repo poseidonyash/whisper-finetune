@@ -8,6 +8,8 @@ dependencies = [
     "ipykernel",
     "jiwer",
     "matplotlib",
+    "peft>=0.21.2",
+    "sounddevice>=0.5.6",
     "soundfile",
     "torch",
     "transformers",

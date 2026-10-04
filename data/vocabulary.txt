@@ -1,0 +1,63 @@
+Cursor
+GitHub
+PyTorch
+Hugging Face
+Colab
+Kaggle
+Jupyter
+NumPy
+Matplotlib
+uv
+PowerShell
+faster-whisper
+CTranslate2
+flowlite
+jiwer
+Python
+PEFT
+Whisper
+WER
+word error rate
+LibriSpeech
+log-mel spectrogram
+tokenizer
+encoder
+decoder
+logits
+softmax
+argmax
+greedy decoding
+beam search
+KV cache
+LoRA
+fine-tuning
+learning rate
+epoch
+batch size
+gradient
+backpropagation
+AdamW
+overfitting
+catastrophic forgetting
+validation set
+inference
+latency
+quantization
+int8
+GPU
+CUDA
+cross-entropy
+hyperparameters
+teacher forcing
+data collator
+reinforcement learning
+LLM
+Wispr
+Wispr Flow
+OpenAI
+{PERSON_1}
+{PERSON_2}
+{PERSON_3}
+{PERSON_4}
+{PLACE_1}
+{PLACE_2}

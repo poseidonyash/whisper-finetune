@@ -1,0 +1,210 @@
+sentence_id,category,text
+s001,ml,Move the model to the GPU before training.
+s002,everyday,"I can't make it tonight, but let's catch up this weekend."
+s003,everyday,"Honestly, I think the second option makes more sense."
+s004,ml,"During training, teacher forcing feeds the decoder the correct tokens."
+s005,everyday,I'll handle the slides if you can write the summary.
+s006,ml,Inference on the CPU takes about half a second per clip.
+s007,ml,AdamW adapts the step size for each parameter.
+s008,everyday,"Sounds good, see you at six."
+s009,ml,"Word error rate counts substitutions, deletions, and insertions."
+s010,everyday,Let's schedule a quick sync to go over the plan.
+s011,names,Traffic around {PLACE_1} is terrible on Fridays.
+s012,everyday,Let me know if you need anything else from me.
+s013,everyday,That was the best pizza I've had in a long time.
+s014,ml,"Without a KV cache, generation gets slower as the text gets longer."
+s015,tools,I pushed the new notebooks to GitHub last night.
+s016,tools,Can you open an issue on GitHub for the recording bug?
+s017,tools,Run uv sync to install everything from the lock file.
+s018,ml,Each epoch goes through every training example once.
+s019,tools,Write a small Python script to check the recordings.
+s020,everyday,"My flight got delayed by two hours, so dinner is off."
+s021,names,I'll be in {PLACE_2} for the interview.
+s022,tools,Use NumPy to stack the features into one array.
+s023,everyday,Note to self: renew the car registration before it expires.
+s024,everyday,"I left my charger at the office, so my phone might die."
+s025,tools,I asked Cursor to explain the error before I changed anything.
+s026,ml,The validation set decides the hyperparameters.
+s027,everyday,"I'm going for a run, back in forty minutes."
+s028,everyday,"Thanks again for dinner, we had a wonderful time."
+s029,ml,I'm fine-tuning Whisper on my own voice.
+s030,ml,Whisper always listens to thirty seconds of audio at a time.
+s031,ml,Softmax makes all the scores add up to one.
+s032,everyday,Let's go for a walk after lunch.
+s033,names,{PERSON_1} and {PERSON_2} are coming to the party.
+s034,everyday,Do you want to grab lunch somewhere quiet today?
+s035,ml,"After quantization, the int8 model was almost as accurate as the original."
+s036,everyday,Good morning! Did you sleep okay?
+s037,names,{PERSON_3} recommended trying LoRA first.
+s038,names,Can you add {PERSON_2} to the group chat?
+s039,ml,I tracked every set of hyperparameters in a JSON file.
+s040,ml,Cross-entropy skips the padding positions in the labels.
+s041,ml,The loss is the cross-entropy between the logits and the labels.
+s042,names,"Happy birthday, {PERSON_4}! Dinner is on me."
+s043,everyday,"I'm heading to bed early tonight, talk tomorrow."
+s044,everyday,Can you remind me what we decided about the budget?
+s045,ml,The validation WER was best after the third epoch.
+s046,ml,A smaller LLM would cut the latency.
+s047,ml,I'll rerun LibriSpeech to check for catastrophic forgetting.
+s048,everyday,Could you send me the address again?
+s049,ml,My greedy decoding loop matched generate exactly.
+s050,tools,Set the encoding in PowerShell before running the script.
+s051,tools,"The GitHub repo is public, so keep the voice files out of it."
+s052,names,"{PERSON_1}, can you review my notebook before I push it?"
+s053,ml,I printed the argmax token to see what the model picked.
+s054,ml,Write the data collator before the training loop.
+s055,tools,NumPy says the array has eighty rows and three thousand columns.
+s056,names,Flights to {PLACE_2} are expensive right now.
+s057,ml,The decoder writes one token at a time.
+s058,ml,Compare LoRA with full fine-tuning on the validation set.
+s059,everyday,Remind me to call the dentist tomorrow morning.
+s060,names,OpenAI released Whisper as an open-source model.
+s061,tools,flowlite uses faster-whisper to transcribe my voice.
+s062,names,Wispr Flow feels faster than typing.
+s063,everyday,Happy birthday! I hope you have an amazing day.
+s064,tools,I wrote the training loop in plain PyTorch first.
+s065,everyday,We should book the tickets before the prices go up.
+s066,tools,I ran the recorder from PowerShell.
+s067,tools,"Cursor suggested a fix, but I want to understand it first."
+s068,tools,I'll plug my fine-tuned model into flowlite later.
+s069,ml,Always normalize the text before computing WER.
+s070,everyday,"I just landed, and I'll text you once I have my bag."
+s071,ml,You can see the padding at the end of the log-mel spectrogram.
+s072,tools,I downloaded the model weights from Hugging Face.
+s073,names,{PERSON_4} and I are working on the project together.
+s074,ml,"Pick the learning rate on the validation set, not the test set."
+s075,names,Tell {PERSON_1} I'll call back in an hour.
+s076,ml,Backpropagation computes the gradient for every weight.
+s077,tools,Let's upload the fine-tuned model to Hugging Face as a private repo.
+s078,ml,The gradient tells each weight which way to move.
+s079,names,OpenAI trained Whisper on hundreds of thousands of hours of audio.
+s080,everyday,Can you share your screen so I can see the error?
+s081,ml,Clip the gradient norm if training becomes unstable.
+s082,ml,The WER on my voice was much higher than on LibriSpeech.
+s083,names,I'm applying for the machine learning role at Wispr.
+s084,ml,The log-mel spectrogram has eighty frequency bands.
+s085,tools,Restart the Jupyter kernel and run every cell from the top.
+s086,tools,I keep experiments in Jupyter and the shared code in a module.
+s087,tools,Upload the recordings to Colab before you start training.
+s088,tools,Install PEFT before you run the LoRA experiment.
+s089,tools,I normalize both strings before giving them to jiwer.
+s090,ml,Try a smaller learning rate and train for longer.
+s091,ml,The encoder reads the whole spectrogram once.
+s092,tools,Open the notebook in Cursor and pick the right kernel.
+s093,tools,I found a speech dataset on Kaggle that might help.
+s094,ml,Check that PyTorch can see CUDA.
+s095,ml,Beam search keeps several candidate transcripts at once.
+s096,tools,PowerShell couldn't find the command until I opened a new terminal.
+s097,tools,The CTranslate2 version should give the same transcripts.
+s098,ml,A cross-entropy of zero means the model is certain and right.
+s099,everyday,I'll pick up groceries on the way home tonight.
+s100,everyday,"I'm running about ten minutes late, sorry about that."
+s101,everyday,"We need milk, eggs, bread, and some coffee."
+s102,everyday,I'll call you back after this meeting ends.
+s103,names,Wispr Flow lets you dictate into any app.
+s104,tools,The Hugging Face processor handles both the audio and the text.
+s105,ml,The logits are scores for every token in the vocabulary.
+s106,ml,"LibriSpeech is read audiobook speech, which is easier than dictation."
+s107,names,OpenAI also has a speech-to-text API.
+s108,names,I owe {PERSON_2} a thank-you for the referral.
+s109,ml,The LLM rewrites my dictation into clean text.
+s110,tools,CTranslate2 can run the model in int8.
+s111,ml,"With only two hundred sentences, overfitting is a real risk."
+s112,tools,Matplotlib makes the spectrogram look like a heat map.
+s113,everyday,"I just finished the book you recommended, and I loved it."
+s114,tools,flowlite cleans up my dictation with an LLM.
+s115,tools,PyTorch tensors are like NumPy arrays that can track gradients.
+s116,tools,Save the Matplotlib chart for the write-up.
+s117,everyday,I'll send the invoice as soon as I get back to my desk.
+s118,tools,Plot the loss curve with Matplotlib after every epoch.
+s119,ml,I want to learn how reinforcement learning is used to personalize models.
+s120,tools,Kaggle gives you free GPU hours every week.
+s121,tools,jiwer computes the word error rate for us.
+s122,ml,"Training loss keeps dropping, but validation WER went up, so it's overfitting."
+s123,ml,"With teacher forcing, the decoder never sees its own mistakes."
+s124,ml,Reinforcement learning could teach the model my formatting preferences.
+s125,everyday,I've attached the receipt for last month's expenses.
+s126,ml,The decoder looks at the encoder output at every step.
+s127,ml,Quantization to int8 makes the model smaller and faster.
+s128,tools,Colab gave me a free GPU for about an hour.
+s129,ml,Try beam search with a beam size of five.
+s130,ml,Check whether quantization hurts the word error rate.
+s131,ml,The argmax of the scores is the predicted token.
+s132,ml,Decode the token IDs with the tokenizer to check the labels.
+s133,names,I'm visiting family in {PLACE_1} next month.
+s134,ml,Full fine-tuning updates every weight in the model.
+s135,everyday,Please review the document and leave your comments by Friday.
+s136,everyday,Please don't forget to lock the front door.
+s137,names,Ask {PERSON_4} if the meeting is still on.
+s138,ml,We measured latency from the end of speech to the final text.
+s139,ml,Fine-tuning took about fifteen minutes on my CPU.
+s140,ml,Don't tune hyperparameters on the test set.
+s141,ml,"Greedy decoding is fast, but beam search can find better transcripts."
+s142,names,I'm driving to {PLACE_1} this weekend with {PERSON_3}.
+s143,tools,The waveform is just a NumPy array of floats.
+s144,ml,"The learning rate was too high, and the loss exploded."
+s145,ml,I found a bug in my data collator.
+s146,ml,Reinforcement learning from human feedback is how chat models learn preferences.
+s147,ml,Each user could have their own LoRA adapter.
+s148,ml,Catastrophic forgetting means the model gets worse at general speech.
+s149,everyday,Can you water the plants while I'm away?
+s150,ml,Most of the inference speedup came from the KV cache.
+s151,ml,A bigger batch size gives smoother gradients.
+s152,ml,I used AdamW with a little weight decay.
+s153,ml,My goal is to cut the WER in half without hurting general speech.
+s154,everyday,"I'm almost done, give me five more minutes."
+s155,ml,Uppercase text makes the tokenizer use more tokens.
+s156,ml,Greedy decoding just takes the argmax at each step.
+s157,tools,PEFT prints how many parameters are trainable.
+s158,ml,Whisper turns audio into a log-mel spectrogram first.
+s159,everyday,"The meeting went well, and they want a follow-up next week."
+s160,tools,faster-whisper is much quicker on a CPU.
+s161,ml,Backpropagation uses the chain rule from calculus.
+s162,everyday,"I'm not sure yet, I'll decide after the interview."
+s163,ml,Temperature divides the logits before the softmax.
+s164,names,I've been using Wispr Flow to write my emails.
+s165,tools,"Always use uv run, so the project's Python gets used."
+s166,ml,A small learning rate helps avoid catastrophic forgetting.
+s167,names,"{PERSON_3}, let me know when you land."
+s168,everyday,I really appreciate you taking the time to explain that.
+s169,tools,Pass jiwer two lists to get the corpus-level score.
+s170,everyday,"That's a great idea, let's try it next sprint."
+s171,ml,"I don't have a GPU, so everything runs on the CPU."
+s172,names,The conference is in {PLACE_2} next month.
+s173,ml,Whisper tiny runs fine on my laptop's CPU.
+s174,tools,PEFT adds LoRA adapters with just a few lines of code.
+s175,tools,My default Python is too new for some of these libraries.
+s176,tools,The Jupyter notebook froze while the model was training.
+s177,ml,A lower word error rate means fewer mistakes.
+s178,tools,Check which version of PyTorch is installed in the environment.
+s179,tools,Let's compare faster-whisper with the transformers version.
+s180,ml,Teacher forcing is why training is faster than generation.
+s181,names,{PERSON_2} said the demo went really well.
+s182,ml,The data collator pads the labels in each batch.
+s183,everyday,"Thanks for the quick reply, that really helps."
+s184,ml,Softmax turns the logits into probabilities.
+s185,everyday,Let me check my calendar and get back to you.
+s186,tools,I added the microphone library with uv add.
+s187,everyday,"I forgot my password again, can you reset it?"
+s188,everyday,I'll be working from home on Wednesday.
+s189,ml,Low latency matters more than anything for dictation.
+s190,everyday,Can we move our call to Thursday afternoon?
+s191,tools,"If Colab disconnects again, I'll switch to Kaggle."
+s192,ml,Freezing the encoder makes training faster.
+s193,ml,Create the AdamW optimizer after you freeze the encoder.
+s194,names,I'm meeting {PERSON_1} for coffee on Saturday.
+s195,ml,The KV cache stops the decoder from recomputing old tokens.
+s196,names,The interview at Wispr is about low-latency inference.
+s197,ml,A batch size of eight fits easily in memory.
+s198,ml,I finally understand how backpropagation works.
+s199,ml,The tokenizer splits rare words into several pieces.
+s200,ml,CUDA ran out of memory with a batch size of sixty-four.
+s201,ml,Batching makes inference cheaper but adds latency.
+s202,ml,Overfitting one batch on purpose is a good sanity check.
+s203,tools,The bigger models will have to train on Colab.
+s204,everyday,"The weather looks terrible, maybe we should stay in."
+s205,ml,Colab sets up CUDA for you.
+s206,ml,The LoRA adapter is only a few megabytes.
+s207,ml,LoRA trains a small low-rank update instead of the full weights.
+s208,tools,Convert the fine-tuned model to CTranslate2 for faster inference.
+s209,everyday,"I'm stuck in traffic, so start without me."

@@ -19,3 +19,9 @@ Thumbs.db
 
 # Hugging Face model/dataset cache, if it ever lands in the project
 .cache/
+
+# Your voice recordings stay on this machine; the repo is public
+data/recordings/
+
+# Fine-tuned model weights (about 150 MB each; notebooks 03 and 04 recreate them)
+models/
