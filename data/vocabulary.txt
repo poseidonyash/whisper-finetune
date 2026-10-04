@@ -55,9 +55,9 @@ LLM
 Wispr
 Wispr Flow
 OpenAI
-{PERSON_1}
-{PERSON_2}
-{PERSON_3}
-{PERSON_4}
-{PLACE_1}
-{PLACE_2}
+Yash
+Udita
+Tej
+Jay
+San Francisco
+Baroda
