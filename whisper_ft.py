@@ -125,16 +125,38 @@ def load_json(path):
 
 
 def transcribe(model, audios, batch_size=8):
-    raise NotImplementedError("Paste your transcribe() from notebook 02, Part 5.")
-
+    results = []
+    for start in range(0, len(audios), batch_size):
+        batch = audios[start:start+batch_size]
+        inputs = processor.feature_extractor(batch, sampling_rate = 16000, return_tensors="pt")
+        with torch.no_grad():
+            predicted_ids = model.generate(inputs.input_features)
+        decoded_strings = processor.batch_decode(predicted_ids, skip_special_tokens = True)
+        results.extend(decoded_strings)
+    return results
 
 def corpus_wer(references, hypotheses):
-    raise NotImplementedError("Paste your corpus_wer() from notebook 02, Part 5.")
-
+    corpus_wer = jiwer.wer(
+        [processor.tokenizer.normalize(r) for r in references],
+        [processor.tokenizer.normalize(h) for h in hypotheses],
+    )
+    return corpus_wer
 
 def term_recall(references, hypotheses, terms):
-    raise NotImplementedError("Paste your term_recall() from notebook 02, Part 5.")
-
+    for row, hyp in zip(test_rows, tiny_hyps):
+        hits = 0
+        total = 0
+        misses = []
+        for ref, hyp in zip(references, hypotheses):
+            for term in terms:
+                if contains_term(ref, term):
+                    total+=1 
+                    if contains_term(hyp, term):
+                        hits +=1 
+                    else:
+                        misses.append((term, ref, hyp))
+        recall = hits / total if total > 0 else None
+    return {"hits": hits, "total": total, "recall": recall, "misses": misses}
 
 # From notebook 03.
 

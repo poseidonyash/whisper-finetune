@@ -1,0 +1,61 @@
+{
+  "test_wer": {
+    "openai/whisper-tiny.en": 0.3139240506329114,
+    "openai/whisper-base.en": 0.25569620253164554
+  },
+  "tiny_category_wer": {
+    "ml": 0.3837837837837838,
+    "everyday": 0.1411764705882353,
+    "names": 0.35294117647058826,
+    "tools": 0.31868131868131866
+  },
+  "tiny_term_recall": {
+    "hits": 14,
+    "total": 45,
+    "recall": 0.3111111111111111
+  },
+  "tiny_test_hypotheses": {
+    "recordings/s007_take1.wav": " Try to W adopts the step size for each parameter.",
+    "recordings/s018_take1.wav": " YouTube blog goes through every training example once.",
+    "recordings/s023_take1.wav": " No blue cells. We knew the car registration before it expires.",
+    "recordings/s027_take1.wav": " I'm going for a run in 40 minutes.",
+    "recordings/s030_take1.wav": " This will only listen to 30 seconds of audio at a time.",
+    "recordings/s033_take1.wav": " Ya Shinobi Darker into the party.",
+    "recordings/s040_take1.wav": " It also entropies, skips the padding positions in the labels.",
+    "recordings/s044_take1.wav": " Can you define me what we decided about the budget?",
+    "recordings/s045_take1.wav": " The Validation WQR was best after the third epoch.",
+    "recordings/s047_take1.wav": " Multitron, Lieb\u00e9lie speech to check for catastrophic forgetting.",
+    "recordings/s050_take1.wav": " Set the recording in PowerShell before running the script.",
+    "recordings/s052_take1.wav": " Yes, can you review my notebook before I push it?",
+    "recordings/s059_take1.wav": " Remind me to call the dentist tomorrow morning.",
+    "recordings/s071_take1.wav": " You can see the padding at the end of the log-man's vector order.",
+    "recordings/s072_take1.wav": " I downloaded the model weights from hugging face.",
+    "recordings/s077_take1.wav": " Let's upload the fine tuned model to Hogging Face as a private repo.",
+    "recordings/s093_take1.wav": " Found a speech data set on CAGL that might help.",
+    "recordings/s094_take1.wav": " Check that fire dodge can see Kuda.",
+    "recordings/s098_take1.wav": " the cross entropy of 0 means the model is certain and right.",
+    "recordings/s101_take1.wav": " We need milk, eggs, bread and some coffee.",
+    "recordings/s105_take1.wav": " And largest are sports for every token in the vocabulary.",
+    "recordings/s109_take1.wav": " The LLM writes magic patient and to clean text.",
+    "recordings/s119_take1.wav": " Want to learn how the firstment learning is used to personalize models?",
+    "recordings/s132_take1.wav": " decode the token ID with the tokenizer to check labels.",
+    "recordings/s135_take1.wav": " Please review the document and leave your comments by Friday.",
+    "recordings/s145_take1.wav": " found for GIMA data coolators.",
+    "recordings/s147_take1.wav": " B2's could have their own, you know, adapt motion.",
+    "recordings/s153_take1.wav": " My goal is to cut the WER in a half without hurting gentle speech.",
+    "recordings/s160_take1.wav": " Once the whisper is much quicker on a CPU.",
+    "recordings/s161_take1.wav": " That propagation uses chain rule from catfills.",
+    "recordings/s165_take1.wav": " What will use UV run so the projects Python gets used.",
+    "recordings/s167_take1.wav": " Age, let me know in your land.",
+    "recordings/s170_take1.wav": " That's a great idea and let's try get next gent.",
+    "recordings/s175_take1.wav": " My day for life honest to a new person called these libraries.",
+    "recordings/s179_take1.wav": " Let's compare faster with both the transformer expression.",
+    "recordings/s184_take1.wav": " So, it lacks the largest and improbable links.",
+    "recordings/s185_take1.wav": " Let me check my calendar and get back to you.",
+    "recordings/s188_take1.wav": " I'd be welcome from home on Wednesday.",
+    "recordings/s189_take1.wav": " Lulate and C matters more than anything for dictation.",
+    "recordings/s193_take1.wav": " We add the AdamW optimizer after you freeze the encoders.",
+    "recordings/s196_take1.wav": " The interview at Westpa is about low latency infarums.",
+    "recordings/s208_take1.wav": " Invert the fine tuned modern to see translate for faster inference."
+  }
+}

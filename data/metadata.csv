@@ -1,0 +1,210 @@
+file,sentence_id,take,category,text,duration_s,peak,recorded_at
+recordings/s001_take1.wav,s001,1,ml,Move the model to the GPU before training.,3.48,0.944,2026-10-04T02:16:58
+recordings/s002_take1.wav,s002,1,everyday,"I can't make it tonight, but let's catch up this weekend.",4.16,0.903,2026-10-04T02:17:18
+recordings/s003_take1.wav,s003,1,everyday,"Honestly, I think the second option makes more sense.",4.39,0.577,2026-10-04T02:17:54
+recordings/s004_take1.wav,s004,1,ml,"During training, teacher forcing feeds the decoder the correct tokens.",6.06,0.854,2026-10-04T02:18:26
+recordings/s005_take1.wav,s005,1,everyday,I'll handle the slides if you can write the summary.,3.72,0.853,2026-10-04T02:18:36
+recordings/s006_take1.wav,s006,1,ml,Inference on the CPU takes about half a second per clip.,5.30,0.833,2026-10-04T02:19:35
+recordings/s007_take1.wav,s007,1,ml,AdamW adapts the step size for each parameter.,4.19,0.967,2026-10-04T02:19:59
+recordings/s008_take1.wav,s008,1,everyday,"Sounds good, see you at six.",3.09,0.751,2026-10-04T02:20:07
+recordings/s009_take1.wav,s009,1,ml,"Word error rate counts substitutions, deletions, and insertions.",4.71,0.988,2026-10-04T02:20:21
+recordings/s010_take1.wav,s010,1,everyday,Let's schedule a quick sync to go over the plan.,4.06,0.979,2026-10-04T02:20:40
+recordings/s011_take1.wav,s011,1,names,Traffic around San Francisco is terrible on Fridays.,4.63,0.825,2026-10-04T02:20:58
+recordings/s012_take1.wav,s012,1,everyday,Let me know if you need anything else from me.,3.46,0.769,2026-10-04T02:21:08
+recordings/s013_take1.wav,s013,1,everyday,That was the best pizza I've had in a long time.,3.74,0.963,2026-10-04T02:21:18
+recordings/s014_take1.wav,s014,1,ml,"Without a KV cache, generation gets slower as the text gets longer.",5.59,0.988,2026-10-04T02:21:39
+recordings/s015_take1.wav,s015,1,tools,I pushed the new notebooks to GitHub last night.,3.07,0.781,2026-10-04T02:21:52
+recordings/s016_take1.wav,s016,1,tools,Can you open an issue on GitHub for the recording bug?,3.67,0.772,2026-10-04T02:22:04
+recordings/s017_take1.wav,s017,1,tools,Run uv sync to install everything from the lock file.,3.98,0.990,2026-10-04T02:22:15
+recordings/s018_take1.wav,s018,1,ml,Each epoch goes through every training example once.,4.21,0.809,2026-10-04T02:22:26
+recordings/s019_take1.wav,s019,1,tools,Write a small Python script to check the recordings.,3.35,0.857,2026-10-04T02:22:35
+recordings/s020_take1.wav,s020,1,everyday,"My flight got delayed by two hours, so dinner is off.",4.65,0.945,2026-10-04T02:22:55
+recordings/s021_take1.wav,s021,1,names,I'll be in Baroda for the interview.,3.07,0.714,2026-10-04T02:23:02
+recordings/s022_take1.wav,s022,1,tools,Use NumPy to stack the features into one array.,2.86,0.934,2026-10-04T02:23:12
+recordings/s023_take1.wav,s023,1,everyday,Note to self: renew the car registration before it expires.,5.30,0.834,2026-10-04T02:23:23
+recordings/s024_take1.wav,s024,1,everyday,"I left my charger at the office, so my phone might die.",4.37,0.980,2026-10-04T02:23:34
+recordings/s025_take1.wav,s025,1,tools,I asked Cursor to explain the error before I changed anything.,6.24,0.875,2026-10-04T02:23:49
+recordings/s026_take1.wav,s026,1,ml,The validation set decides the hyperparameters.,4.13,0.989,2026-10-04T02:24:00
+recordings/s027_take1.wav,s027,1,everyday,"I'm going for a run, back in forty minutes.",3.64,0.963,2026-10-04T02:24:18
+recordings/s028_take1.wav,s028,1,everyday,"Thanks again for dinner, we had a wonderful time.",3.07,0.764,2026-10-04T02:24:27
+recordings/s029_take1.wav,s029,1,ml,I'm fine-tuning Whisper on my own voice.,3.80,0.651,2026-10-04T02:24:44
+recordings/s030_take1.wav,s030,1,ml,Whisper always listens to thirty seconds of audio at a time.,4.55,0.843,2026-10-04T02:24:55
+recordings/s031_take1.wav,s031,1,ml,Softmax makes all the scores add up to one.,3.64,0.794,2026-10-04T02:25:04
+recordings/s032_take1.wav,s032,1,everyday,Let's go for a walk after lunch.,2.91,0.983,2026-10-04T02:25:11
+recordings/s033_take1.wav,s033,1,names,Yash and Udita are coming to the party.,2.76,0.906,2026-10-04T02:25:24
+recordings/s034_take1.wav,s034,1,everyday,Do you want to grab lunch somewhere quiet today?,4.45,0.782,2026-10-04T02:25:47
+recordings/s035_take1.wav,s035,1,ml,"After quantization, the int8 model was almost as accurate as the original.",5.72,0.950,2026-10-04T02:26:04
+recordings/s036_take1.wav,s036,1,everyday,Good morning! Did you sleep okay?,3.69,0.902,2026-10-04T02:26:12
+recordings/s037_take1.wav,s037,1,names,Tej recommended trying LoRA first.,3.51,0.906,2026-10-04T02:26:21
+recordings/s038_take1.wav,s038,1,names,Can you add Udita to the group chat?,3.74,0.719,2026-10-04T02:26:30
+recordings/s039_take1.wav,s039,1,ml,I tracked every set of hyperparameters in a JSON file.,3.85,0.849,2026-10-04T17:47:11
+recordings/s040_take1.wav,s040,1,ml,Cross-entropy skips the padding positions in the labels.,4.71,0.903,2026-10-04T02:27:12
+recordings/s041_take1.wav,s041,1,ml,The loss is the cross-entropy between the logits and the labels.,4.65,0.676,2026-10-04T02:27:24
+recordings/s042_take1.wav,s042,1,names,"Happy birthday, Jay! Dinner is on me.",4.11,0.815,2026-10-04T02:27:33
+recordings/s043_take1.wav,s043,1,everyday,"I'm heading to bed early tonight, talk tomorrow.",4.11,0.613,2026-10-04T02:27:48
+recordings/s044_take1.wav,s044,1,everyday,Can you remind me what we decided about the budget?,4.11,0.813,2026-10-04T02:27:59
+recordings/s045_take1.wav,s045,1,ml,The validation WER was best after the third epoch.,5.75,0.968,2026-10-04T02:28:18
+recordings/s046_take1.wav,s046,1,ml,A smaller LLM would cut the latency.,2.68,0.649,2026-10-04T02:28:27
+recordings/s047_take1.wav,s047,1,ml,I'll rerun LibriSpeech to check for catastrophic forgetting.,6.08,0.826,2026-10-04T02:28:50
+recordings/s048_take1.wav,s048,1,everyday,Could you send me the address again?,2.99,0.941,2026-10-04T02:28:58
+recordings/s049_take1.wav,s049,1,ml,My greedy decoding loop matched generate exactly.,4.34,0.558,2026-10-04T02:29:11
+recordings/s050_take1.wav,s050,1,tools,Set the encoding in PowerShell before running the script.,4.55,0.859,2026-10-04T02:29:21
+recordings/s051_take1.wav,s051,1,tools,"The GitHub repo is public, so keep the voice files out of it.",5.33,0.897,2026-10-04T02:29:33
+recordings/s052_take1.wav,s052,1,names,"Yash, can you review my notebook before I push it?",4.11,0.925,2026-10-04T02:29:43
+recordings/s053_take1.wav,s053,1,ml,I printed the argmax token to see what the model picked.,4.16,0.642,2026-10-04T02:29:53
+recordings/s054_take1.wav,s054,1,ml,Write the data collator before the training loop.,4.89,0.909,2026-10-04T02:30:11
+recordings/s055_take1.wav,s055,1,tools,NumPy says the array has eighty rows and three thousand columns.,6.66,0.838,2026-10-04T02:30:25
+recordings/s056_take1.wav,s056,1,names,Flights to Baroda are expensive right now.,3.41,0.987,2026-10-04T02:30:33
+recordings/s057_take1.wav,s057,1,ml,The decoder writes one token at a time.,3.33,0.909,2026-10-04T02:30:39
+recordings/s058_take1.wav,s058,1,ml,Compare LoRA with full fine-tuning on the validation set.,4.42,0.858,2026-10-04T02:30:47
+recordings/s059_take1.wav,s059,1,everyday,Remind me to call the dentist tomorrow morning.,3.25,0.768,2026-10-04T02:30:54
+recordings/s060_take1.wav,s060,1,names,OpenAI released Whisper as an open-source model.,4.42,0.640,2026-10-04T02:31:03
+recordings/s061_take1.wav,s061,1,tools,flowlite uses faster-whisper to transcribe my voice.,4.21,0.532,2026-10-04T02:31:13
+recordings/s062_take1.wav,s062,1,names,Wispr Flow feels faster than typing.,3.77,0.738,2026-10-04T02:31:22
+recordings/s063_take1.wav,s063,1,everyday,Happy birthday! I hope you have an amazing day.,4.08,0.933,2026-10-04T02:31:31
+recordings/s064_take1.wav,s064,1,tools,I wrote the training loop in plain PyTorch first.,4.00,0.771,2026-10-04T02:31:39
+recordings/s065_take1.wav,s065,1,everyday,We should book the tickets before the prices go up.,4.03,0.738,2026-10-04T02:31:48
+recordings/s066_take1.wav,s066,1,tools,I ran the recorder from PowerShell.,4.76,0.668,2026-10-04T02:31:59
+recordings/s067_take1.wav,s067,1,tools,"Cursor suggested a fix, but I want to understand it first.",5.15,0.901,2026-10-04T02:32:08
+recordings/s068_take1.wav,s068,1,tools,I'll plug my fine-tuned model into flowlite later.,4.78,0.773,2026-10-04T02:32:15
+recordings/s069_take1.wav,s069,1,ml,Always normalize the text before computing WER.,4.91,0.684,2026-10-04T02:32:23
+recordings/s070_take1.wav,s070,1,everyday,"I just landed, and I'll text you once I have my bag.",3.98,0.940,2026-10-04T02:32:34
+recordings/s071_take1.wav,s071,1,ml,You can see the padding at the end of the log-mel spectrogram.,6.11,0.604,2026-10-04T02:32:49
+recordings/s072_take1.wav,s072,1,tools,I downloaded the model weights from Hugging Face.,4.21,0.698,2026-10-04T02:32:56
+recordings/s073_take1.wav,s073,1,names,Jay and I are working on the project together.,4.94,0.786,2026-10-04T02:33:04
+recordings/s074_take1.wav,s074,1,ml,"Pick the learning rate on the validation set, not the test set.",4.71,0.986,2026-10-04T02:33:15
+recordings/s075_take1.wav,s075,1,names,Tell Yash I'll call back in an hour.,3.61,0.817,2026-10-04T02:33:23
+recordings/s076_take1.wav,s076,1,ml,Backpropagation computes the gradient for every weight.,5.46,0.809,2026-10-04T02:33:33
+recordings/s077_take1.wav,s077,1,tools,Let's upload the fine-tuned model to Hugging Face as a private repo.,5.51,0.843,2026-10-04T02:33:48
+recordings/s078_take1.wav,s078,1,ml,The gradient tells each weight which way to move.,3.46,0.970,2026-10-04T02:34:00
+recordings/s079_take1.wav,s079,1,names,OpenAI trained Whisper on hundreds of thousands of hours of audio.,5.75,0.921,2026-10-04T02:34:12
+recordings/s080_take1.wav,s080,1,everyday,Can you share your screen so I can see the error?,4.32,0.928,2026-10-04T02:34:20
+recordings/s081_take1.wav,s081,1,ml,Clip the gradient norm if training becomes unstable.,5.54,0.970,2026-10-04T02:34:29
+recordings/s082_take1.wav,s082,1,ml,The WER on my voice was much higher than on LibriSpeech.,6.47,0.649,2026-10-04T02:34:41
+recordings/s083_take1.wav,s083,1,names,I'm applying for the machine learning role at Wispr.,4.24,0.860,2026-10-04T02:34:48
+recordings/s084_take1.wav,s084,1,ml,The log-mel spectrogram has eighty frequency bands.,5.30,0.795,2026-10-04T02:34:55
+recordings/s085_take1.wav,s085,1,tools,Restart the Jupyter kernel and run every cell from the top.,5.36,0.815,2026-10-04T02:35:03
+recordings/s086_take1.wav,s086,1,tools,I keep experiments in Jupyter and the shared code in a module.,5.56,0.802,2026-10-04T02:35:12
+recordings/s087_take1.wav,s087,1,tools,Upload the recordings to Colab before you start training.,5.10,0.880,2026-10-04T02:35:19
+recordings/s088_take1.wav,s088,1,tools,Install PEFT before you run the LoRA experiment.,7.07,0.732,2026-10-04T02:35:30
+recordings/s089_take1.wav,s089,1,tools,I normalize both strings before giving them to jiwer.,5.15,0.936,2026-10-04T02:35:37
+recordings/s090_take1.wav,s090,1,ml,Try a smaller learning rate and train for longer.,4.42,0.854,2026-10-04T02:35:44
+recordings/s091_take1.wav,s091,1,ml,The encoder reads the whole spectrogram once.,4.06,0.858,2026-10-04T02:35:50
+recordings/s092_take1.wav,s092,1,tools,Open the notebook in Cursor and pick the right kernel.,4.73,0.917,2026-10-04T02:36:00
+recordings/s093_take1.wav,s093,1,tools,I found a speech dataset on Kaggle that might help.,4.55,0.964,2026-10-04T02:36:08
+recordings/s094_take1.wav,s094,1,ml,Check that PyTorch can see CUDA.,4.06,0.830,2026-10-04T02:36:14
+recordings/s095_take1.wav,s095,1,ml,Beam search keeps several candidate transcripts at once.,5.15,0.703,2026-10-04T02:36:21
+recordings/s096_take1.wav,s096,1,tools,PowerShell couldn't find the command until I opened a new terminal.,4.37,0.988,2026-10-04T02:36:35
+recordings/s097_take1.wav,s097,1,tools,The CTranslate2 version should give the same transcripts.,7.57,0.698,2026-10-04T02:36:46
+recordings/s098_take1.wav,s098,1,ml,A cross-entropy of zero means the model is certain and right.,4.81,0.899,2026-10-04T02:36:53
+recordings/s099_take1.wav,s099,1,everyday,I'll pick up groceries on the way home tonight.,4.50,0.617,2026-10-04T02:37:08
+recordings/s100_take1.wav,s100,1,everyday,"I'm running about ten minutes late, sorry about that.",4.55,0.541,2026-10-04T02:37:15
+recordings/s101_take1.wav,s101,1,everyday,"We need milk, eggs, bread, and some coffee.",4.21,0.846,2026-10-04T02:37:22
+recordings/s102_take1.wav,s102,1,everyday,I'll call you back after this meeting ends.,3.33,0.618,2026-10-04T02:37:28
+recordings/s103_take1.wav,s103,1,names,Wispr Flow lets you dictate into any app.,4.19,0.802,2026-10-04T02:37:34
+recordings/s104_take1.wav,s104,1,tools,The Hugging Face processor handles both the audio and the text.,5.69,0.827,2026-10-04T02:37:42
+recordings/s105_take1.wav,s105,1,ml,The logits are scores for every token in the vocabulary.,4.42,0.692,2026-10-04T02:37:50
+recordings/s106_take1.wav,s106,1,ml,"LibriSpeech is read audiobook speech, which is easier than dictation.",6.14,0.882,2026-10-04T02:37:59
+recordings/s107_take1.wav,s107,1,names,OpenAI also has a speech-to-text API.,4.13,0.853,2026-10-04T02:38:06
+recordings/s108_take1.wav,s108,1,names,I owe Udita a thank-you for the referral.,3.38,0.728,2026-10-04T02:38:11
+recordings/s109_take1.wav,s109,1,ml,The LLM rewrites my dictation into clean text.,4.52,0.851,2026-10-04T02:38:18
+recordings/s110_take1.wav,s110,1,tools,CTranslate2 can run the model in int8.,4.76,0.704,2026-10-04T02:38:26
+recordings/s111_take1.wav,s111,1,ml,"With only two hundred sentences, overfitting is a real risk.",4.91,0.729,2026-10-04T02:38:33
+recordings/s112_take1.wav,s112,1,tools,Matplotlib makes the spectrogram look like a heat map.,5.56,0.924,2026-10-04T02:38:41
+recordings/s113_take1.wav,s113,1,everyday,"I just finished the book you recommended, and I loved it.",4.68,0.758,2026-10-04T02:38:48
+recordings/s114_take1.wav,s114,1,tools,flowlite cleans up my dictation with an LLM.,4.89,0.756,2026-10-04T02:39:04
+recordings/s115_take1.wav,s115,1,tools,PyTorch tensors are like NumPy arrays that can track gradients.,6.68,0.800,2026-10-04T02:39:13
+recordings/s116_take1.wav,s116,1,tools,Save the Matplotlib chart for the write-up.,3.72,0.707,2026-10-04T02:39:19
+recordings/s117_take1.wav,s117,1,everyday,I'll send the invoice as soon as I get back to my desk.,4.63,0.896,2026-10-04T02:39:26
+recordings/s118_take1.wav,s118,1,tools,Plot the loss curve with Matplotlib after every epoch.,4.45,0.938,2026-10-04T02:39:33
+recordings/s119_take1.wav,s119,1,ml,I want to learn how reinforcement learning is used to personalize models.,5.77,0.779,2026-10-04T02:39:41
+recordings/s120_take1.wav,s120,1,tools,Kaggle gives you free GPU hours every week.,3.95,0.874,2026-10-04T02:39:47
+recordings/s121_take1.wav,s121,1,tools,jiwer computes the word error rate for us.,3.90,0.896,2026-10-04T02:39:53
+recordings/s122_take1.wav,s122,1,ml,"Training loss keeps dropping, but validation WER went up, so it's overfitting.",6.37,0.950,2026-10-04T02:40:01
+recordings/s123_take1.wav,s123,1,ml,"With teacher forcing, the decoder never sees its own mistakes.",4.78,0.775,2026-10-04T02:40:16
+recordings/s124_take1.wav,s124,1,ml,Reinforcement learning could teach the model my formatting preferences.,5.49,0.884,2026-10-04T02:40:24
+recordings/s125_take1.wav,s125,1,everyday,I've attached the receipt for last month's expenses.,3.80,0.670,2026-10-04T02:40:29
+recordings/s126_take1.wav,s126,1,ml,The decoder looks at the encoder output at every step.,4.29,0.770,2026-10-04T02:40:35
+recordings/s127_take1.wav,s127,1,ml,Quantization to int8 makes the model smaller and faster.,5.10,0.841,2026-10-04T02:40:42
+recordings/s128_take1.wav,s128,1,tools,Colab gave me a free GPU for about an hour.,5.38,0.771,2026-10-04T02:40:56
+recordings/s129_take1.wav,s129,1,ml,Try beam search with a beam size of five.,4.47,0.565,2026-10-04T02:41:02
+recordings/s130_take1.wav,s130,1,ml,Check whether quantization hurts the word error rate.,3.67,0.948,2026-10-04T02:41:08
+recordings/s131_take1.wav,s131,1,ml,The argmax of the scores is the predicted token.,4.32,0.790,2026-10-04T02:41:14
+recordings/s132_take1.wav,s132,1,ml,Decode the token IDs with the tokenizer to check the labels.,5.28,0.925,2026-10-04T02:41:26
+recordings/s133_take1.wav,s133,1,names,I'm visiting family in San Francisco next month.,3.72,0.762,2026-10-04T02:41:32
+recordings/s134_take1.wav,s134,1,ml,Full fine-tuning updates every weight in the model.,4.08,0.923,2026-10-04T02:41:38
+recordings/s135_take1.wav,s135,1,everyday,Please review the document and leave your comments by Friday.,3.74,0.990,2026-10-04T02:41:44
+recordings/s136_take1.wav,s136,1,everyday,Please don't forget to lock the front door.,2.70,0.703,2026-10-04T02:41:48
+recordings/s137_take1.wav,s137,1,names,Ask Jay if the meeting is still on.,3.56,0.722,2026-10-04T02:41:59
+recordings/s138_take1.wav,s138,1,ml,We measured latency from the end of speech to the final text.,5.38,0.950,2026-10-04T02:42:07
+recordings/s139_take1.wav,s139,1,ml,Fine-tuning took about fifteen minutes on my CPU.,3.93,0.979,2026-10-04T02:42:13
+recordings/s140_take1.wav,s140,1,ml,Don't tune hyperparameters on the test set.,3.25,0.793,2026-10-04T02:42:18
+recordings/s141_take1.wav,s141,1,ml,"Greedy decoding is fast, but beam search can find better transcripts.",6.08,0.863,2026-10-04T02:42:26
+recordings/s142_take1.wav,s142,1,names,I'm driving to San Francisco this weekend with Tej.,5.02,0.906,2026-10-04T02:42:32
+recordings/s143_take1.wav,s143,1,tools,The waveform is just a NumPy array of floats.,4.06,0.979,2026-10-04T02:42:38
+recordings/s144_take1.wav,s144,1,ml,"The learning rate was too high, and the loss exploded.",5.88,0.742,2026-10-04T02:43:01
+recordings/s145_take1.wav,s145,1,ml,I found a bug in my data collator.,4.11,0.849,2026-10-04T02:43:07
+recordings/s146_take1.wav,s146,1,ml,Reinforcement learning from human feedback is how chat models learn preferences.,6.08,0.877,2026-10-04T02:43:16
+recordings/s147_take1.wav,s147,1,ml,Each user could have their own LoRA adapter.,5.10,0.683,2026-10-04T02:43:30
+recordings/s148_take1.wav,s148,1,ml,Catastrophic forgetting means the model gets worse at general speech.,5.54,0.961,2026-10-04T02:43:38
+recordings/s149_take1.wav,s149,1,everyday,Can you water the plants while I'm away?,2.81,0.839,2026-10-04T02:43:43
+recordings/s150_take1.wav,s150,1,ml,Most of the inference speedup came from the KV cache.,4.86,0.800,2026-10-04T02:43:50
+recordings/s151_take1.wav,s151,1,ml,A bigger batch size gives smoother gradients.,4.13,0.713,2026-10-04T02:44:02
+recordings/s152_take1.wav,s152,1,ml,I used AdamW with a little weight decay.,4.29,0.736,2026-10-04T02:44:09
+recordings/s153_take1.wav,s153,1,ml,My goal is to cut the WER in half without hurting general speech.,6.08,0.734,2026-10-04T02:44:17
+recordings/s154_take1.wav,s154,1,everyday,"I'm almost done, give me five more minutes.",4.00,0.785,2026-10-04T02:44:23
+recordings/s155_take1.wav,s155,1,ml,Uppercase text makes the tokenizer use more tokens.,5.10,0.702,2026-10-04T02:44:30
+recordings/s156_take1.wav,s156,1,ml,Greedy decoding just takes the argmax at each step.,5.17,0.639,2026-10-04T02:44:37
+recordings/s157_take1.wav,s157,1,tools,PEFT prints how many parameters are trainable.,4.32,0.670,2026-10-04T02:44:44
+recordings/s158_take1.wav,s158,1,ml,Whisper turns audio into a log-mel spectrogram first.,4.16,0.871,2026-10-04T02:44:50
+recordings/s159_take1.wav,s159,1,everyday,"The meeting went well, and they want a follow-up next week.",5.30,0.678,2026-10-04T02:44:58
+recordings/s160_take1.wav,s160,1,tools,faster-whisper is much quicker on a CPU.,4.34,0.709,2026-10-04T02:45:16
+recordings/s161_take1.wav,s161,1,ml,Backpropagation uses the chain rule from calculus.,6.03,0.732,2026-10-04T02:45:25
+recordings/s162_take1.wav,s162,1,everyday,"I'm not sure yet, I'll decide after the interview.",4.34,0.869,2026-10-04T02:45:31
+recordings/s163_take1.wav,s163,1,ml,Temperature divides the logits before the softmax.,4.29,0.806,2026-10-04T02:45:37
+recordings/s164_take1.wav,s164,1,names,I've been using Wispr Flow to write my emails.,4.39,0.708,2026-10-04T02:45:44
+recordings/s165_take1.wav,s165,1,tools,"Always use uv run, so the project's Python gets used.",5.04,0.885,2026-10-04T02:45:51
+recordings/s166_take1.wav,s166,1,ml,A small learning rate helps avoid catastrophic forgetting.,4.50,0.782,2026-10-04T02:45:57
+recordings/s167_take1.wav,s167,1,names,"Tej, let me know when you land.",2.37,0.841,2026-10-04T02:46:01
+recordings/s168_take1.wav,s168,1,everyday,I really appreciate you taking the time to explain that.,4.13,0.841,2026-10-04T02:46:07
+recordings/s169_take1.wav,s169,1,tools,Pass jiwer two lists to get the corpus-level score.,4.03,0.761,2026-10-04T02:46:13
+recordings/s170_take1.wav,s170,1,everyday,"That's a great idea, let's try it next sprint.",4.24,0.764,2026-10-04T02:46:19
+recordings/s171_take1.wav,s171,1,ml,"I don't have a GPU, so everything runs on the CPU.",4.34,0.953,2026-10-04T02:46:25
+recordings/s172_take1.wav,s172,1,names,The conference is in Baroda next month.,3.17,0.947,2026-10-04T02:46:30
+recordings/s173_take1.wav,s173,1,ml,Whisper tiny runs fine on my laptop's CPU.,4.89,0.661,2026-10-04T02:46:37
+recordings/s174_take1.wav,s174,1,tools,PEFT adds LoRA adapters with just a few lines of code.,4.00,0.875,2026-10-04T02:46:43
+recordings/s175_take1.wav,s175,1,tools,My default Python is too new for some of these libraries.,4.37,0.806,2026-10-04T02:46:49
+recordings/s176_take1.wav,s176,1,tools,The Jupyter notebook froze while the model was training.,4.42,0.628,2026-10-04T02:46:55
+recordings/s177_take1.wav,s177,1,ml,A lower word error rate means fewer mistakes.,4.21,0.559,2026-10-04T02:47:03
+recordings/s178_take1.wav,s178,1,tools,Check which version of PyTorch is installed in the environment.,3.98,0.855,2026-10-04T02:47:10
+recordings/s179_take1.wav,s179,1,tools,Let's compare faster-whisper with the transformers version.,4.76,0.677,2026-10-04T02:47:17
+recordings/s180_take1.wav,s180,1,ml,Teacher forcing is why training is faster than generation.,4.71,0.907,2026-10-04T02:47:24
+recordings/s181_take1.wav,s181,1,names,Udita said the demo went really well.,3.64,0.632,2026-10-04T02:47:36
+recordings/s182_take1.wav,s182,1,ml,The data collator pads the labels in each batch.,5.56,0.793,2026-10-04T02:47:44
+recordings/s183_take1.wav,s183,1,everyday,"Thanks for the quick reply, that really helps.",4.11,0.962,2026-10-04T02:47:51
+recordings/s184_take1.wav,s184,1,ml,Softmax turns the logits into probabilities.,4.45,0.955,2026-10-04T02:48:00
+recordings/s185_take1.wav,s185,1,everyday,Let me check my calendar and get back to you.,3.82,0.772,2026-10-04T02:48:05
+recordings/s186_take1.wav,s186,1,tools,I added the microphone library with uv add.,4.03,0.736,2026-10-04T02:48:11
+recordings/s187_take1.wav,s187,1,everyday,"I forgot my password again, can you reset it?",4.00,0.933,2026-10-04T02:48:24
+recordings/s188_take1.wav,s188,1,everyday,I'll be working from home on Wednesday.,2.86,0.825,2026-10-04T02:48:28
+recordings/s189_take1.wav,s189,1,ml,Low latency matters more than anything for dictation.,4.63,0.707,2026-10-04T02:48:35
+recordings/s190_take1.wav,s190,1,everyday,Can we move our call to Thursday afternoon?,4.03,0.668,2026-10-04T02:48:40
+recordings/s191_take1.wav,s191,1,tools,"If Colab disconnects again, I'll switch to Kaggle.",4.42,0.936,2026-10-04T02:48:46
+recordings/s192_take1.wav,s192,1,ml,Freezing the encoder makes training faster.,3.46,0.937,2026-10-04T02:48:53
+recordings/s193_take1.wav,s193,1,ml,Create the AdamW optimizer after you freeze the encoder.,5.75,0.664,2026-10-04T02:49:09
+recordings/s194_take1.wav,s194,1,names,I'm meeting Yash for coffee on Saturday.,3.95,0.577,2026-10-04T02:49:15
+recordings/s195_take1.wav,s195,1,ml,The KV cache stops the decoder from recomputing old tokens.,5.36,0.913,2026-10-04T02:49:22
+recordings/s196_take1.wav,s196,1,names,The interview at Wispr is about low-latency inference.,4.47,0.873,2026-10-04T02:49:29
+recordings/s197_take1.wav,s197,1,ml,A batch size of eight fits easily in memory.,4.24,0.781,2026-10-04T02:49:35
+recordings/s198_take1.wav,s198,1,ml,I finally understand how backpropagation works.,3.80,0.848,2026-10-04T02:49:41
+recordings/s199_take1.wav,s199,1,ml,The tokenizer splits rare words into several pieces.,4.63,0.813,2026-10-04T02:49:47
+recordings/s200_take1.wav,s200,1,ml,CUDA ran out of memory with a batch size of sixty-four.,5.28,0.696,2026-10-04T02:49:54
+recordings/s201_take1.wav,s201,1,ml,Batching makes inference cheaper but adds latency.,5.17,0.810,2026-10-04T02:50:01
+recordings/s202_take1.wav,s202,1,ml,Overfitting one batch on purpose is a good sanity check.,4.63,0.688,2026-10-04T02:50:07
+recordings/s203_take1.wav,s203,1,tools,The bigger models will have to train on Colab.,4.78,0.964,2026-10-04T02:50:20
+recordings/s204_take1.wav,s204,1,everyday,"The weather looks terrible, maybe we should stay in.",3.64,0.799,2026-10-04T02:50:26
+recordings/s205_take1.wav,s205,1,ml,Colab sets up CUDA for you.,3.07,0.791,2026-10-04T02:50:36
+recordings/s206_take1.wav,s206,1,ml,The LoRA adapter is only a few megabytes.,4.11,0.809,2026-10-04T02:50:47
+recordings/s207_take1.wav,s207,1,ml,LoRA trains a small low-rank update instead of the full weights.,5.41,0.974,2026-10-04T02:50:54
+recordings/s208_take1.wav,s208,1,tools,Convert the fine-tuned model to CTranslate2 for faster inference.,5.72,0.777,2026-10-04T02:51:01
+recordings/s209_take1.wav,s209,1,everyday,"I'm stuck in traffic, so start without me.",3.72,0.818,2026-10-04T02:51:07
