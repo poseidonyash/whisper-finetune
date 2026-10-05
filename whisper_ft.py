@@ -143,18 +143,17 @@ def corpus_wer(references, hypotheses):
     return corpus_wer
 
 def term_recall(references, hypotheses, terms):
-    for row, hyp in zip(test_rows, tiny_hyps):
-        hits = 0
-        total = 0
-        misses = []
-        for ref, hyp in zip(references, hypotheses):
-            for term in terms:
-                if contains_term(ref, term):
-                    total+=1 
-                    if contains_term(hyp, term):
-                        hits +=1 
-                    else:
-                        misses.append((term, ref, hyp))
+    hits = 0
+    total = 0
+    misses = []
+    for ref, hyp in zip(references, hypotheses):
+        for term in terms:
+            if contains_term(ref, term):
+                total+=1 
+                if contains_term(hyp, term):
+                    hits +=1 
+                else:
+                    misses.append((term, ref, hyp))
         recall = hits / total if total > 0 else None
     return {"hits": hits, "total": total, "recall": recall, "misses": misses}
 
