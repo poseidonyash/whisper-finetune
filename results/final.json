@@ -1,0 +1,53 @@
+{
+  "chosen_experiment": "full_lr3e-5",
+  "n_test_recordings": 42,
+  "test_wer": {
+    "baseline": 0.3139240506329114,
+    "tuned": 0.15443037974683543,
+    "ci95_change": [
+      -0.22456421894235581,
+      -0.09818741450068398
+    ]
+  },
+  "test_category_wer": {
+    "baseline": {
+      "ml": 0.3837837837837838,
+      "everyday": 0.1411764705882353,
+      "names": 0.35294117647058826,
+      "tools": 0.31868131868131866
+    },
+    "tuned": {
+      "ml": 0.1783783783783784,
+      "everyday": 0.09411764705882353,
+      "names": 0.058823529411764705,
+      "tools": 0.1978021978021978
+    }
+  },
+  "term_recall": {
+    "baseline_seen": {
+      "hits": 11,
+      "total": 40,
+      "recall": 0.275
+    },
+    "tuned_seen": {
+      "hits": 29,
+      "total": 40,
+      "recall": 0.725
+    },
+    "baseline_unseen": {
+      "hits": 3,
+      "total": 5,
+      "recall": 0.6
+    },
+    "tuned_unseen": {
+      "hits": 3,
+      "total": 5,
+      "recall": 0.6
+    }
+  },
+  "librispeech_wer": {
+    "baseline": 0.08982035928143713,
+    "tuned": 0.11291702309666382
+  },
+  "base_en_test_wer": 0.25569620253164554
+}
