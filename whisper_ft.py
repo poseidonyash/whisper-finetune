@@ -161,12 +161,34 @@ def term_recall(references, hypotheses, terms):
 
 
 def prepare_example(row):
-    raise NotImplementedError("Paste your prepare_example() from notebook 03, Part 1.")
+    output = {}
+    audio = read_wav(row["path"])
+    output["input_features"] = processor.feature_extractor(
+        audio, sampling_rate=SAMPLE_RATE, return_tensors="np"
+    ).input_features[0]
+    text = row["text"]
+    output["labels"] = processor.tokenizer(" " + text).input_ids
+    return output
 
 
 def collate(batch):
-    raise NotImplementedError("Paste your collate() from notebook 03, Part 2.")
+    output = {}
+    features = np.stack([ex["input_features"] for ex in batch])
+    output["input_features"] = torch.from_numpy(features)
+    labels = processor.tokenizer.pad(
+        [{"input_ids": ex["labels"][1:]} for ex in batch], return_tensors="pt"
+    )
+    output["labels"] = labels["input_ids"].masked_fill(labels["attention_mask"] == 0, -100)
+    return output
 
 
 def train_one_epoch(model, loader, optimizer):
-    raise NotImplementedError("Paste your train_one_epoch() from notebook 03, Part 5.")
+    losses = []
+    model.train()
+    for batch in loader:
+        outputs = model(**batch)
+        outputs.loss.backward()
+        optimizer.step()
+        optimizer.zero_grad()
+        losses.append(outputs.loss.item())
+    return sum(losses) / len(losses)
